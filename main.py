@@ -5,7 +5,7 @@ import tensorflow as tf
 import cv2
 from io import BytesIO
 
-TOKEN = '1907658962:AAHpruBawWR32lUuufezRz3aXGB44ncObPc'
+TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
 model = tf.keras.models.load_model('modelCIFAR.h5')
 classes = ['самолет',
            'автомобиль',
